@@ -1,0 +1,62 @@
+﻿生成启动时间为 2017/3/6 14:59:10。
+     1>项目“D:\Explore_Download\tolua-master\win32\mytest\mytest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /I../../lua/include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\mytest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /I../../lua/include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\mytest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt luatest.cpp ScriptMgr.cpp test.cpp
+         luatest.cpp
+     1>d:\explore_download\tolua-master\win32\mytest\LuaCall.inl(406): warning C4018: “<”: 有符号/无符号不匹配
+     1>luatest.cpp(113): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
+     1>luatest.cpp(114): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
+     1>luatest.cpp(115): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
+     1>luatest.cpp(116): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
+         ScriptMgr.cpp
+     1>d:\explore_download\tolua-master\win32\mytest\LuaCall.inl(406): warning C4018: “<”: 有符号/无符号不匹配
+         test.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /I../../lua/include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt script.cpp
+         script.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Explore_Download\tolua-master\win32\mytest\Release\mytest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Explore_Download\tolua-master\win32\mytest\Release\mytest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Explore_Download\tolua-master\win32\mytest\Release\mytest.lib" /MACHINE:X86 /SAFESEH Release\luatest.obj
+         Release\script.obj
+         Release\ScriptMgr.obj
+         Release\stdafx.obj
+         Release\test.obj
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_pushnumber
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_pushstring
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_settop
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_toboolean
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_tolstring
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_getfield
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_remove
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_type
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_pcall
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_isnumber
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_tonumber
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_isstring
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_pushvalue
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_pushnil
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_next
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_gettop
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_typename
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _luaL_newstate
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _luaL_openlibs
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _luaL_loadfile
+     1>luatest.obj : error LNK2001: 无法解析的外部符号 _lua_close
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_tousertype
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_tonumber
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_pushnumber
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_function
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_open
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_usertype
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_module
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_pushusertype
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_beginmodule
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_cclass
+     1>script.obj : error LNK2001: 无法解析的外部符号 _tolua_endmodule
+     1>D:\Explore_Download\tolua-master\win32\mytest\Release\mytest.exe : fatal error LNK1120: 32 个无法解析的外部命令
+     1>已完成生成项目“D:\Explore_Download\tolua-master\win32\mytest\mytest.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.80

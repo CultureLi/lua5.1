@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/3/6 14:59:37。
+     1>项目“D:\Explore_Download\tolua-master\win32\mytest\mytest.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Explore_Download\tolua-master\win32\mytest\Debug\mytest.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../lib lua5.1.lib tolua++.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Explore_Download\tolua-master\win32\mytest\Debug\mytest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Explore_Download\tolua-master\win32\mytest\Debug\mytest.lib" /MACHINE:X86 Debug\luatest.obj
+         Debug\script.obj
+         Debug\ScriptMgr.obj
+         Debug\stdafx.obj
+         Debug\test.obj
+         tolua++.lib(tolua_map.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>luatest.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+         mytest.vcxproj -> D:\Explore_Download\tolua-master\win32\mytest\Debug\mytest.exe
+     1>已完成生成项目“D:\Explore_Download\tolua-master\win32\mytest\mytest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.59

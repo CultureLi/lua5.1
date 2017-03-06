@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/3/6 14:56:37。
+     1>项目“D:\Explore_Download\tolua-master\win32\tolua++app\tolua++app.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\bin\tolua.c ..\..\src\bin\toluabind.c ..\..\src\lib\tolua_event.c ..\..\src\lib\tolua_is.c ..\..\src\lib\tolua_map.c ..\..\src\lib\tolua_push.c ..\..\src\lib\tolua_to.c
+         tolua.c
+         toluabind.c
+         tolua_event.c
+         tolua_is.c
+     1>..\..\src\lib\tolua_is.c(119): warning C4114: 多次使用同一类型限定符
+         tolua_map.c
+     1>..\..\src\lib\tolua_map.c(397): warning C4090: “函数”: 不同的“const”限定符
+         tolua_push.c
+         tolua_to.c
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin\tolua++.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib lua5.1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin\tolua++.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin\tolua++.lib" /MACHINE:X86 /SAFESEH Release\tolua.obj
+         Release\toluabind.obj
+         Release\tolua_event.obj
+         Release\tolua_is.obj
+         Release\tolua_map.obj
+         Release\tolua_push.obj
+         Release\tolua_to.obj
+         tolua++app.vcxproj -> D:\Explore_Download\tolua-master\win32\tolua++app\../../bin\tolua++.exe
+     1>已完成生成项目“D:\Explore_Download\tolua-master\win32\tolua++app\tolua++app.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.77

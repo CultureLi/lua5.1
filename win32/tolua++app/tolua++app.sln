@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tolua++app", "tolua++app.vcxproj", "{A1C63EFB-E13F-4DF2-9263-9B8DD0BC86BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1C63EFB-E13F-4DF2-9263-9B8DD0BC86BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1C63EFB-E13F-4DF2-9263-9B8DD0BC86BF}.Debug|Win32.Build.0 = Debug|Win32
+		{A1C63EFB-E13F-4DF2-9263-9B8DD0BC86BF}.Release|Win32.ActiveCfg = Release|Win32
+		{A1C63EFB-E13F-4DF2-9263-9B8DD0BC86BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
