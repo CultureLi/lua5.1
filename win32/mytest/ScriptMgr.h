@@ -6,9 +6,13 @@
 class ScriptMgr
 {
 public:
+	lua_State* L;
+
 	ScriptMgr();
 	~ScriptMgr();
 	static ScriptMgr& Instance();
+	void Init();
+	void RegisterFunctions(luaL_reg Funcs[]);
 };
 
 #include "LuaCall.inl"
