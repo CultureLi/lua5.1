@@ -383,6 +383,8 @@ inline Ret LuaCallF(lua_State* L ,const char* szFuncName, const char* sig, ...)
         }
         if (!bWhile)
             break;
+
+        luaL_checkstack(L, 1, "too many arguments");
     }
     va_end(vl);
 
@@ -454,6 +456,8 @@ inline bool LuaCallF(lua_State* L, const char* szFuncName, const char* sig, ...)
         }
         if (!bWhile)
             break;
+
+        luaL_checkstack(L, 1, "too many arguments");
     }
 
     int nResult = (int)strlen(sig);
